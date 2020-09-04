@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Core01</string>
+    <string name="init_number" translatable="false">10</string>
+    <string name="sneeze">Sneeze</string>
+    <string name="blow_nose">Human breathing</string>
+    <string name="take_medication">Take medication</string>
+</resources>
