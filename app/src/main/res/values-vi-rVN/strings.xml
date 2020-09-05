@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Core01</string>
-    <string name="sneeze">Hắt hơi</string>
-    <string name="blow_nose">Khó thở</string>
-    <string name="take_medication">Uống thuốc</string>
-    <string name="init_number">10</string>
+    <string name="sneeze">hắt hơi</string>
+    <string name="blow_nose">Thở</string>
+    <string name="take_medication">Uống Thuốc</string>
 </resources>

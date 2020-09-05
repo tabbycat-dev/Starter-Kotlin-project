@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         //set text color for health level
         setTextColor( healthLevelTextView.text.toString() )
     }
+    fun playSound(){
+        //play sound for human breathing/ blow nose button
+        var mediaPlayer: MediaPlayer? = MediaPlayer.create(applicationContext, R.raw.human_breathing)
+        mediaPlayer?.start() // no need to call prepare(); create() does that for you
+    }
 
     fun healthLevel(number: Int){
         //click event for sneeze and take medication button
@@ -89,8 +94,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun playSound(){
-        var mediaPlayer: MediaPlayer? = MediaPlayer.create(applicationContext, R.raw.human_breathing)
-        mediaPlayer?.start() // no need to call prepare(); create() does that for you
-    }
 }
